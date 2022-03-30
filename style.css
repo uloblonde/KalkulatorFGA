@@ -16,7 +16,7 @@
 }
 
 .col-6{
-    margin-top: 80px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -26,6 +26,10 @@
     text-align: left;
 }
 
-.btn{
+.submitan{
     margin-top: 30px;
+}
+.inputan{
+    display: inline-block;
+    width: 100px;
 }
