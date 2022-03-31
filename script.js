@@ -1,12 +1,14 @@
 function masukin(valuenya){
-    ikiform.field.value = ikiform.field.value += valuenya
+    document.ikiform.field.value = ikiform.field.value += valuenya
   }
   function samadengan(){
-    ikiform.field.value = eval(ikiform.field.value)
+    document.ikiform.field.value = eval(ikiform.field.value)
   }
-  function clear(){
-
+  function clean(){
+    document.ikiform.field.value = ""
   }
   function hapus(){
-
+    document.ikiform.field.value = document.ikiform.field.value.substring(0, document.ikiform.field.value.length-1)
+    console.error();
   }
+  

@@ -32,9 +32,10 @@
                 <h1 class="judule">Kalkulator Semi Pintar</h1>
         <form name="ikiform">
             <div class="form-group">
-              <label for="exampleInputEmail1">Input & Output</label>
+              <label>Input & Output</label>
               <textarea class="form-control" name="field" id="textareanya" placeholder="0"></textarea>
             </div>
+          </form>
             <table class="table table-borderless table-dark">
               <thead>
                 <tr>
@@ -59,14 +60,14 @@
                 </tr>
                 <tr>
                   <th><input class="btn btn-dark inputan" type="button" value="0" onclick="masukin(0)"></th>
-                  <th><input class="btn btn-dark inputan" type="button" value="C" onclick=""></th>
-                  <th><input class="btn btn-dark inputan" type="button" value="Del" onclick=""></th>
+                  <th><input class="btn btn-dark inputan" type="button" value="C" onclick="clean()"></th>
+                  <th><input class="btn btn-dark inputan" type="button" value="Del" onclick="hapus()"></th>
                   <th><input class="btn btn-dark inputan" type="button" value="/" onclick="masukin('/')"></th>
                 </tr>
               </tbody>
             </table>
             <button type="button" class="btn btn-dark submitan" value="=" onclick="samadengan()">Submit</button>
-          </form>
+          
         </div>
            <div class="col"> 
               </div>
