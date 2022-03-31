@@ -12,3 +12,8 @@ function masukin(valuenya){
     console.error();
   }
   
+  function persen(){
+    let value = document.ikiform.field.value
+    value = value / 100
+    document.ikiform.field.value = value
+  }
