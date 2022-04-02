@@ -29,11 +29,42 @@
 
 .submitan{
     margin-top: 30px;
+    height: 50px;
 }
-.inputan{
-    display: inline-block;
-    width: 100px;
+
+.inputan {
+    width: 100%;
+    height: 100%;
 }
+
 .akimilaku{
-    margin-left: 10px;
+    width: 100%;
+}
+
+.akimilaku th,td {
+    height: 70px;
+}
+
+@media (max-width:768px){
+    .akimilaku{
+        margin-left:60px;
+    }
+    .form-group{
+
+        margin: 0;
+        padding-left: 95px;
+    }
+    .judule{
+        font-size: 25pt;
+        text-align: center;
+    }
+    .submitan{
+        margin-left: 120px;
+    }
+    .ikilabel{
+        margin-left:10px ;
+    }
+}
+@media (max-width:1200){
+    
 }
